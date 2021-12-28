@@ -4,4 +4,5 @@ from django.http import HttpResponse
 # Create your views here.
 
 def index(request):
-    return HttpResponse('Hello django!')
+    return render(request, 'chess_social_app/index.html')
+    # return HttpResponse('Hello django!')
